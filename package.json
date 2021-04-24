@@ -2,8 +2,8 @@
   "name": "discord-player",
   "version": "4.0.0",
   "description": "Complete framework to facilitate music commands using discord.js",
-  "main": "lib/src/index.js",
-  "types": "lib/src/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "yarn build && cd test && node index.js",
     "build": "tsc",
