@@ -4,9 +4,6 @@
   "description": "Complete framework to facilitate music commands using discord.js",
   "main": "lib/src/index.js",
   "types": "lib/src/index.d.ts",
-  "files": [
-    "lib/"
-  ],
   "scripts": {
     "test": "yarn build && cd test && node index.js",
     "build": "tsc --build tsconfig.json",
