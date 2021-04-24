@@ -8,8 +8,7 @@
     "test": "yarn build && cd test && node index.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
-    "lint": "tslint -p tsconfig.json",
-    "postinstall": "npx tsc --build tsconfig.json"
+    "lint": "tslint -p tsconfig.json"
   },
   "funding": "https://github.com/Androz2091/discord-player?sponsor=1",
   "contributors": [
