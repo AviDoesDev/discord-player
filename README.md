@@ -3,6 +3,7 @@ Complete framework to facilitate music commands using **[discord.js](https://dis
 
 [![downloadsBadge](https://img.shields.io/npm/dt/discord-player?style=for-the-badge)](https://npmjs.com/discord-player)
 [![versionBadge](https://img.shields.io/npm/v/discord-player?style=for-the-badge)](https://npmjs.com/discord-player)
+[![discordBadge](https://img.shields.io/discord/558328638911545423?style=for-the-badge&color=7289da)](https://androz2091.fr/discord)
 
 ## Installation
 
@@ -106,9 +107,9 @@ These bots are made by the community, they can help you build your own!
 * [Discord-Music](https://github.com/inhydrox/discord-music) by [inhydrox](https://github.com/inhydrox)
 * [Music-bot](https://github.com/ZerioDev/Music-bot) by [ZerioDev](https://github.com/ZerioDev)
 
-## FAQ
+## Advanced
 
-### How to use cookies
+### Use cookies
 
 ```js
 const player = new Player(client, {
@@ -122,7 +123,7 @@ const player = new Player(client, {
 });
 ```
 
-### How to use custom proxies
+### Use custom proxies
 
 ```js
 const HttpsProxyAgent = require("https-proxy-agent");
