@@ -546,8 +546,8 @@ export class Player extends EventEmitter {
                 });
             } else {
                 for (const [_, extractor] of this.Extractors) {
-                    if (extractor.validate(query)) {
-                        const data = await extractor.handle(query);
+                    if (extractor.validate(query,message)) {
+                        const data = await extractor.handle(query,message);
                         if (data) {
                             track = new Track(this, {
                                 title: data.title,
